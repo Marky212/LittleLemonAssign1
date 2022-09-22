@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <title>Little Lemon</title>
+        <meta name="description" content="Homepage for the Little Lemon">
+        <meta name="author" content="Little Lemon Restaurant">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <header>
+     <img src="/ResturantProject/project/headerLogo.png">  
+    </header>
+        <nav>
+        <ul>
+            <li><a href="/ResturantProject/project/index.html#home">Homepage</a></li>
+            <li><a href="/ResturantProject/project/index.html#menu">Menu</a></li>
+            <li><a href="/ResturantProject/project/index.html#about">About Us</a></li>
+            <li><a href="order.html">Order</a></li>
+            
+        </ul>    
+        </nav>
+        <main>
+      <h1 id="order">Order</h1>
+      <p> Please place your order below or call in your order at <u>555-555-5555</u></p>
+      <div>
+      <img src="falafel.jpg" id="item1">
+      <img src="salad.jpg" id="item2">
+      <img src="kebob.jpg" id="item3">
+      <img src="gyro.jpg" id="item4">
+      </div>
+      <form id="survey-form" method="post" action="www.com"> 
+        <fieldset>
+            <label id="name-label">Name: <input type="text" id="name" required placeholder="John Doe"/></label>
+        </fieldset>
+        <fieldset>    
+            <label id="info-label">Email: <input type="email" required placeholder="person@email.com"/></label>
+            <label id="info-label">Address: <input type="text" required placeholder="house no. street, city, state"/></label>
+            <label id="info-label">Phone: <input type="tel" required placeholder="000-000-0000"></label>
+          </fieldset>
+        <fieldset>   
+            <label>Menu Options <select id="dropdown">
+            <option value="">select one</option>
+            <option value="1">Falafel - $12.00</option>
+            <option value="2">Mediterranean Salad - $10.00</option>
+            <option value="3">Kebob - $15.00</option>
+            <option value="4">Gyro - $12.00</option>
+          </select></label>
+          </fieldset>
+          <fieldset>
+          <label><input type="radio" name="account-type" class="inline" value="radio"/> Pick Up</label>
+        <label><input type="radio" name="account-type" class="inline" value="radio"/> Delivery</label>
+        <label>
+            <input type="checkbox" name="terms" class="inline" required value="checkbox"/> I understand that all information
+            entered is being collected. See <a href="" class="terms">Privacy Agreement.</a>
+            </label>
+            <label>
+            <input type="checkbox" name="terms" class="inline" required  value="checkbox"/> I accept the 
+            <a href="https://www.coursera.org" class="terms">Terms and Conditions</a>
+          </label>
+        </fieldset>
+        <fieldset>
+        <label id="card-label">Card: <input type="number" minlength="14" maxlength="14" required placeholder="000-000-0000-0000"></label>
+        <label id="card-label">Expiration Date: <input type="date" required></label>
+        </fieldset>
+        <fieldset>
+        <label id="comments">Additional Comments: 
+          <textarea name="requests" rows="3" cols="30" placeholder="Enter any additional delivery information"></textarea>
+        </label>
+        </fieldset>
+        <section>
+          <article>
+        <input id="submit" type="submit" value="SUBMIT"/>          
+          </article>
+        </section>
+    </form>
+  </main>
+  <footer>
+    <img src="footerLogo.png">
+    <p><i>(Little Lemon Copyright)</i></p> 
+  </footer>
+</html>

@@ -46,12 +46,15 @@ section {
 
 .promotion {
     display: inline-block;
-    font-size: large;
+    height: 100%;
+    width: 100%;
     color: #2a472a;
 }
 
 .promotion:hover {
     background-image: url(./falafel.jpg);
+    height: 100%;
+    width: 100%;
     transform: rotateX(360deg);
     transition: 1s ease;
     color: transparent;
